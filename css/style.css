@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -63,8 +63,9 @@ html {
   font-weight: 600;
 }
 
-/* badge à direita */
+
 .points-badge {
+  margin-top: 0.5rem;
   color: #ff5a39;
   padding: 0.375rem 0.75rem;
   border-radius: 999px;
@@ -73,14 +74,15 @@ html {
   font-size: 0.8rem;
 }
 
-/* ===== TÍTULOS ===== */
+
 .section-title {
   font-size: 1.35rem;
   font-weight: 800;
   margin: 0.375rem 0 0.625rem;
+  padding-bottom: 1.7rem;
 }
 
-/* ===== PROMOÇÕES ===== */
+
 .promos {
   display: grid;
   gap: 0.625rem;
@@ -122,9 +124,10 @@ html {
 .promo-sub {
   color: #6a6a6f;
   font-size: 0.92rem;
+  padding-bottom: 4rem;
 }
 
-/* ===== PEÇA NOVAMENTE ===== */
+
 .order-again {
   display: grid;
   grid-template-columns: 8.625rem 1fr;
@@ -160,7 +163,7 @@ html {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%; /* ocupa toda a largura da tela */
+  width: 100%;
   background: #fff;
   border-top: 1px solid #eaeaea;
   padding: 0; 
@@ -189,8 +192,6 @@ html {
   text-decoration: none;
   color: #6a6a6f;
   font-size: 0.9rem;
-  transition: color 0.2s ease;
-  
 }
 
 .menu-link.is-active {
@@ -198,7 +199,7 @@ html {
 }
 
 .menu-icon {
-  width: 1.75rem; /* 28px */
+  width: 1.75rem; 
   height: 1.75rem;
 }
 
